@@ -1,0 +1,21 @@
+Mandarin Conversation Preparation
+=================================
+
+Thank you for your interest in our Mandarin conversation meetup! We’d like to take this opportunity to cordially remind you that this event is Mandarin-only. At minimum, please come prepared to answer these six basic questions in Mandarin. If you need to, it's OK to consult Google Translate [#]_. If you make any mistakes in your answers we'll be sure to (gently) correct you.
+
+你叫什么？
+  What's your name?
+
+你来自哪里？
+  Where do you come from?
+
+你住在哪里？
+  Where do you live?
+
+你做什么工作？
+  What do you do for a living?
+
+你最喜欢吃什么？
+  What do you most like to eat?
+
+.. [#] But please note that you should never completely trust translations from Google Translate.
