@@ -3,14 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Chicago Chinese Language Meetup Group's documentation!
-=================================================================
+Chicago Chinese Language Meetup Group
+=====================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
+   description
+   attendance-policy
+   code-of-conduct
+   preparation
 
 
 Indices and tables
@@ -19,4 +23,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
