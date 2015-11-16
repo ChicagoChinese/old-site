@@ -15,6 +15,7 @@ Contents:
    attendance-policy
    code-of-conduct
    preparation
+   event-descriptions/index
 
 
 Indices and tables
