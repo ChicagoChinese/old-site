@@ -5,7 +5,8 @@ If you RSVP for an event and later find out that you can't make it, please cance
 
 In general, hosts will not be quick to dole out no-shows. However, if your failure to attend results in inconvenience for the host or other members, then it's quite likely you'll get a no-show. Some examples:
 
-- The host makes a restaurant reservation for 10 and then only 4 people show up—if you are one of the 6 who didn't show up, then you'll get a no-show. Over-reserving tables can hurt our relationships with local venues.
-- A conversation meetup has 6 RSVPs, but only 2 people show up—if you are one of the 4 who didn't show up, then you'll get a no-show. Hosts have the right to cancel events that are too small.
+- The host schedules a dinner event with a waitlist. If you no-showed, then you prevented another member from taking your spot.
+- The host makes a restaurant reservation and the number of attendees is far fewer than expected. Over-reserving tables looks bad for the host and can hurt our relationships with local venues.
+- A conversation meetup has fewer than the minimum number of attendees. If you no-showed, then you wasted the host's time by causing her to host an event that should've been cancelled.
 
 In the case where failure to attend results in the host losing money, the affected host can ban you from all her future events.
