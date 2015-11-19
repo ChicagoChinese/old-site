@@ -14,7 +14,7 @@ Please keep your English to a minimum at meetups specifically labeled “谈话�
 English for Mandarin speakers
 `````````````````````````````
 
-Since native Chinese speakers are kind enough to attend and help us with our Chinese, we want to return the favor and help them with their English. We'll do our best to ensure that there are a decent number of native English speakers in attendance.
+Since native Chinese speakers are kind enough to attend and help us with our Chinese, we want to return the favor and help them with their English. We'll do our best to ensure that there are as many English speakers as Chinese speakers.
 
 社交/文化 (social/cultural)
 ```````````````````````````
@@ -24,7 +24,7 @@ We go out to eat, see plays, watch movies, and do anything else our members want
 读书会 (book club)
 ``````````````````
 
-We have a book club for advanced language learners!
+We have a `book club <http://chicagochinese.github.io/book-club.html>`_ for advanced language learners!
 
 Group Rules
 -----------
