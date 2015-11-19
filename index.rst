@@ -15,8 +15,9 @@ Contents:
    attendance-policy
    code-of-conduct
    preparation
+   book-club
    event-descriptions/index
-
+   administrative/index
 
 Indices and tables
 ==================
