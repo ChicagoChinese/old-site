@@ -4,9 +4,8 @@ Administrative
 Static assets
 -------------
 
-:download:`Logo <logo.png>`
-
-:download:`Background/cover image <background.png>`
+- :download:`Logo <logo.png>`
+- :download:`Background/cover image <background.png>`
 
 Canned responses
 ----------------
@@ -14,5 +13,5 @@ Canned responses
 .. toctree::
    :maxdepth: 1
 
-   no-show
-   waitlisted
+   no-show-waitlist
+   bump-to-waitlist
