@@ -17,4 +17,3 @@ Static assets
 
 - :download:`Logo <logo.png>`
 - :download:`Background/cover image <background.png>`
-- :download:`JavaScript source code for canned response generator <crg.js>`
