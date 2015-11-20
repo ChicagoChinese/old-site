@@ -6,14 +6,38 @@ $(function() {
 //=============================================================================
 
 var root = '/_sources/administrative/'
-var templates = {}
+var templates = [
+  {
+    name: 'No-Show for Event with Waitlist',
+    file: 'no-show-waitlist',
+    fields: ['name', 'date', 'no_show_count', 'organizer_name']
+  },
+  {
+    name: 'Bumped to Waitlist because of No-Show',
+    file: 'bump-to-waitlist',
+    fields: ['name', 'date', 'event', 'organizer_name']
+  }
+]
 
+var templateCache = {}
+
+populateTemplateSelect()
 populateDateSelect()
 formatForm()
 
 $('select[name=template]').on('change', (evt) => {
-  updateScreenForTemplate(evt.target.value)
+  var template = getCurrentTemplate()
+  updateScreenForTemplate(template)
 });
+
+function populateTemplateSelect() {
+  var select = $('select[name=template]')
+
+  for (var i=0; i < templates.length; i++) {
+    var item = templates[i]
+    select.append(`<option value=${i}>${item.name}</option>`)
+  }
+}
 
 function populateDateSelect() {
   var select = $('select[name=date]')
@@ -53,10 +77,11 @@ function formatForm() {
   updateScreenForTemplate(getCurrentTemplate())
 }
 
-function showFormElements(...names) {
+function showFormElements(template) {
+  var fields = template ? template.fields : []
   $('div.form').children().each((index, elem) => {
     var name = elem.dataset.name
-    if (names.indexOf(elem.dataset.name) !== -1) {
+    if (fields.indexOf(elem.dataset.name) !== -1) {
       $(elem).show()
     } else {
       $(elem).hide()
@@ -65,34 +90,24 @@ function showFormElements(...names) {
 }
 
 function updateScreenForTemplate(template) {
-  switch (template) {
-    case 'no-show-waitlist':
-      showFormElements('name', 'date', 'no_show_count', 'organizer_name')
-      break;
-    case 'bump-to-waitlist':
-      showFormElements('name', 'date', 'event', 'organizer_name')
-      break;
-    default:
-      showFormElements()
-      break;
-  }
+  showFormElements(template)
   updateCannedResponse(template)
 }
 
 function updateCannedResponse(template) {
-  if (template === '') {
+  if (!template) {
     $('.canned-response').text('')
     return
   }
-  if (template in templates) {
-    applyTemplate(templates[template])
+  if (template.file in templateCache) {
+    applyTemplate(templateCache[template.file])
     return
   }
 
   // Template needs to be fetched first.
-  $.get(root + template + '.txt', (data) => {
+  $.get(root + template.file + '.txt', (data) => {
     var templateText = data.split(/={3,}/)[1].trim()
-    templates[template] = templateText
+    templateCache[template.file] = templateText
     applyTemplate(templateText)
   })
 }
@@ -104,7 +119,8 @@ function applyTemplate(templateText) {
 }
 
 function getCurrentTemplate() {
-  return $('select[name=template]').val()
+  var val = $('select[name=template]').val()
+  return val ? templates[val] : null
 }
 
 function getFormValues() {
