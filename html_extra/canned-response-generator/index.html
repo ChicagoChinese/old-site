@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><head>
+  <title>Canned Response Generator</title>
+</head>
+<body>
+
+<h1>Canned Response Generator</h1>
+
+<div>
+  Template:
+  <select name='template'>
+    <option value=''>----------</option>
+    <option value='no-show-waitlist'>No-Show for Event with Waitlist</option>
+    <option value='bump-to-waitlist'>Bumped to Waitlist because of No-Show</option>
+  </select>
+</div>
+
+<h2>Parameters</h2>
+
+<div class='form' style='display:none'>
+  <input name='name'>
+
+  <select name='date'></select>
+
+  <select name='no_show_count'>
+    <option>1</option>
+    <option>2</option>
+  </select>
+
+  <input name='event'>
+
+  <input name='organizer_name' value='Feihong'>
+</div>
+
+<h2>Canned Response</h2>
+
+<div class='canned-response'></div>
+
+<!-- Scripts -->
+<script src="/_static/jquery.js"></script>
+<script src="/_static/underscore.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src='main.js'></script>
+
+</body>
+</html>

@@ -1,11 +1,7 @@
 Administrative
 ==============
 
-Static assets
--------------
-
-- :download:`Logo <logo.png>`
-- :download:`Background/cover image <background.png>`
+`Canned Response Generator </canned-response-generator/>`_
 
 Canned responses
 ----------------
@@ -15,3 +11,9 @@ Canned responses
 
    no-show-waitlist
    bump-to-waitlist
+
+Static assets
+-------------
+
+- :download:`Logo <logo.png>`
+- :download:`Background/cover image <background.png>`
