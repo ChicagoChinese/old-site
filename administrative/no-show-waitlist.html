@@ -90,12 +90,12 @@
 <li class="toctree-l1"><a class="reference internal" href="../book-club.html">Book Club</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../event-descriptions/index.html">Event Descriptions</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Administrative</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="index.html#static-assets">Static assets</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="index.html#canned-responses">Canned responses</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="">No-Show for Event with Waitlist</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bump-to-waitlist.html">Bumped to Waitlist because of No-Show</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#static-assets">Static assets</a></li>
 </ul>
 </li>
 </ul>
@@ -148,7 +148,7 @@
 <h1>No-Show for Event with Waitlist<a class="headerlink" href="#no-show-for-event-with-waitlist" title="Permalink to this headline">¶</a></h1>
 <p>Hi {{ name }},</p>
 <p>You RSVP&#8217;ed for an event on {{ date }}, but failed to attend. In the future, please change your RSVP to No if circumstances prevent you from attending. This gives people on the waiting list a chance to take your spot.</p>
-<p>You currently have {{ no_show_count }} no-shows on your record. If you accrue 3 no-shows within a year, your membership will be suspended for 3 months. If you have any questions about our attendance policy, please refer to <a class="reference external" href="http://chicagochinese.github.io/attendance-policy.html">http://chicagochinese.github.io/attendance-policy.html</a>.</p>
+<p>You currently have {{ no_show_count }} no-show{{ no_show_count == &#8216;1&#8217; ? &#8216;&#8217; : &#8216;s&#8217; }} on your record. If you accrue 3 no-shows within a year, your membership will be suspended for 3 months. If you have any questions about our attendance policy, please refer to <a class="reference external" href="http://chicagochinese.github.io/attendance-policy.html">http://chicagochinese.github.io/attendance-policy.html</a>.</p>
 <p>Regards,
 {{ organizer_name }}</p>
 </div>
