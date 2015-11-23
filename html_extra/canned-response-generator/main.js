@@ -62,7 +62,10 @@ class CannedResponseGenerator extends React.Component {
       </ParameterForm>
 
       <h2>Canned Response</h2>
-      <CannedResponse templateIndex={this.state.templateIndex} formValues={this.state.formValues} />
+      <CannedResponse
+        templateIndex={this.state.templateIndex}
+        formValues={this.state.formValues}
+        isHidden={this.isResponseHidden()} />
     </div>
   }
 
@@ -75,6 +78,17 @@ class CannedResponseGenerator extends React.Component {
   onFormChange(name, value) {
     let newValues = Object.assign(this.state.formValues, {[name]: value})
     this.setState({formValues: newValues})
+  }
+
+  isResponseHidden() {
+    // If not all the fields for the particular template have been filled, then
+    // hide the canned response.
+    if (this.state.templateIndex === null) {
+      return true
+    }
+    let fields = TEMPLATES[this.state.templateIndex].fields
+    let values = fields.map(key => this.state.formValues[key])
+    return values.some(v => v === '')
   }
 }
 
@@ -113,14 +127,14 @@ class ParameterForm extends React.Component {
         defaultValue: this.props.formValues[child.props.name],
       }
       let name = child.props.name
-      return <div className={this.isHidden(name) ? 'hidden' : null}>
+      return <div className={this.isChildHidden(name) ? 'hidden' : null}>
         <span>{name}: </span>
         {React.cloneElement(child, extra)}
       </div>
     })
   }
 
-  isHidden(name) {
+  isChildHidden(name) {
     let template = TEMPLATES[this.props.templateIndex]
     if (typeof template === 'undefined') {
       return true
@@ -206,7 +220,8 @@ class CannedResponse extends React.Component {
   }
 
   render() {
-    return <div className='canned-response'
+    return <div
+      className={'canned-response' + (this.props.isHidden ? ' hidden' : '')}
       dangerouslySetInnerHTML={{__html: this.state.generatedHtml}} />
   }
 
@@ -218,6 +233,7 @@ class CannedResponse extends React.Component {
 CannedResponse.propTypes = {
   templateIndex: React.PropTypes.number,
   formValues: React.PropTypes.object,
+  isHidden: React.PropTypes.bool,
 }
 
 
