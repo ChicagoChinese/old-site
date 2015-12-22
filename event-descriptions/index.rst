@@ -17,5 +17,6 @@ Tentative events
 
 .. toctree::
 
+  wancha/index
   snack-party/index
   potluck
