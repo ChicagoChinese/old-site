@@ -7,8 +7,8 @@ Regular events
 .. toctree::
    :maxdepth: 1
 
-   mandarin-conversation-long-room
-   mandarin-conversation-julius-meinl
+   tanhua-long-room/index
+   tanhua-julius-meinl/index
    english-conversation
    duck-dinner
 
