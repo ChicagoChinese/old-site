@@ -1,7 +1,7 @@
 汉语谈话 (Mandarin Conversation) @ The Long Room
 ============================================
 
-.. image:: longroom.jpg
+.. image:: long-room.jpg
 
 This event will be conducted in Mandarin. Please `come prepared <http://chicagochinese.github.io/preparation.html>`_.
 
