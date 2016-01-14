@@ -11,12 +11,12 @@ Regular events
    tanhua-julius-meinl/index
    english-conversation
    duck-dinner
+   wancha/index
+   potluck
 
 Tentative events
 ----------------
 
 .. toctree::
 
-  wancha/index
   snack-party/index
-  potluck
