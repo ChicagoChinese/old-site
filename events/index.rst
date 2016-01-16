@@ -12,7 +12,7 @@ Regular events
    english-conversation
    duck-dinner
    wancha/index
-   potluck
+   potluck/index
 
 Tentative events
 ----------------
