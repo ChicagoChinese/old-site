@@ -16,7 +16,7 @@ Contents:
    code-of-conduct
    preparation
    book-club
-   event-descriptions/index
+   events/index
    administrative/index
 
 Indices and tables

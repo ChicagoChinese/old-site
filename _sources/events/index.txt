@@ -1,5 +1,5 @@
-Event Descriptions
-==================
+Event Information
+=================
 
 Regular events
 --------------
