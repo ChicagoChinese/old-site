@@ -18,6 +18,7 @@ Contents:
    book-club
    events/index
    administrative/index
+   playlists/index
 
 Indices and tables
 ==================

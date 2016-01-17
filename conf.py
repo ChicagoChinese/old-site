@@ -18,6 +18,8 @@ import shlex
 
 def setup(app):
     app.add_stylesheet('extra.css')
+    app.add_javascript('https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js')
+    app.add_javascript('extra.js')
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
