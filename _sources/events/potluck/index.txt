@@ -20,4 +20,4 @@ Potluck
 
   大家好，以下是我的地址和联系方式：
 
-  我的地址是0000 N XXXX St，单位是XX。大门右侧有一个对讲机，在目录里我家的选项是XXXX。先使用对讲机联系我，然后我可以开锁大门。你出电梯以后要左拐，然后再左拐，我的公寓近乎在走廊的终端。我的手机号码是000-000-0000。很期待周日晚上见到你们！ My address is 0000 N XXXX St, unit XX. On the right side of the gate is an intercom, and my place is listed under XXXX. Use the intercom to call me, and after I receive the call I can unlock the gate and front door. After you get out of the elevator, turn left, then take another left. My apartment is almost at the end of the hall. My cell is 000-000-0000. I look forward to seeing you on Sunday night!
+  我的地址是0000 N XXXX St，单位是XX。大门右侧有一个对讲机，在目录里我家的选项是XXXX。先使用对讲机联系我，我接了以后可以开锁大门和前门。你出电梯以后要左拐，然后再左拐，我的公寓近乎在走廊的终端。我的手机号码是000-000-0000。很期待周日晚上见到你们！ My address is 0000 N XXXX St, unit XX. On the right side of the gate is an intercom, and my place is listed under XXXX. Use the intercom to call me, and after I receive the call I can unlock the gate and front door. After you get out of the elevator, turn left, then take another left. My apartment is almost at the end of the hall. My cell is 000-000-0000. I look forward to seeing you on Sunday night!
