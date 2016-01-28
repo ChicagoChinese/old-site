@@ -11,6 +11,7 @@ Canned responses
 
    no-show-waitlist
    bump-to-waitlist
+   no-unique-picture
 
 Static assets
 -------------
